@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>momontom</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="js-clock">
+      <h1 class="js-clock__time">00:00</h1>
+      <h2 class="js-clock__message"></h2>
+    </div>
+    <form class="js-form" action="#">
+      <label class="js-form__question" for="main-js-form">
+        What is your name?
+      </label>
+      <input class="js-form__input" id="main-focus" type="text" />
+    </form>
+    <form class="js-toDoForm" action="#">
+      <input
+        class="js-toDoForm__input"
+        type="text"
+        placeholder="Write today's plan"
+      />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <script src="clock.js"></script>
+    <script src="clock-message.js"></script>
+    <script src="form.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>

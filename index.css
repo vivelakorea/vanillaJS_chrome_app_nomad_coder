@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(191, 229, 217);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js-clock__time {
+  font-size: 70px;
+  font-weight: 6000;
+}
+.js-clock__message {
+  font-size: 50px;
+  font-weight: 4000;
+}
+
+.js-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js-form__question {
+  background-color: rgb(191, 229, 217);
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 100;
+}
+.no-name-question {
+  display: none;
+}
+
+.js-form__input,
+.js-toDoForm__input {
+  background-color: rgb(191, 229, 217);
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 30px;
+  font-weight: 90;
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.no-name-input,
+.no-toDo {
+  display: none;
+}
+
+.delBtn {
+  border: none;
+  background-color: rgb(191, 229, 217);
+  color: red;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js-toDoList__toDo {
+  background-color: rgb(191, 229, 217);
+  margin: 10px 0;
+}
