@@ -74,6 +74,7 @@ body {
 }
 .js-toDoForm__input::placeholder {
   color: white;
+  opacity: 0.5;
 }
 
 .delBtn {
